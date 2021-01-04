@@ -1,0 +1,44 @@
+# PlanAhead Generated physical constraints 
+#net btnC loc = "F5";
+net btnL loc = "P4";
+net btnR loc = "F6";
+net btnU loc = "N4";
+net btnD loc = "P3";
+
+net sw[0] loc = "A10";
+net sw[1] loc = "D14";
+net sw[2] loc = "C14";
+net sw[3] loc = "P15";
+net sw[4] loc = "P12";
+#net sw[5] loc = "R5";
+#net sw[6] loc = "T5";
+#net sw[7] loc = "E4";
+
+net led[0] loc = "U18";
+net led[1] loc = "M14";
+net led[2] loc = "N14";
+net led[3] loc = "L14";
+net led[4] loc = "M13";
+#net led[5] loc = "D4";
+#net led[6] loc = "P16";
+#net led[7] loc = "N12";
+
+net JA[1] loc = "T3";
+net JA[2] loc = "R3";
+net JA[3] loc = "P6";
+#net JA[4] loc = "N5";
+#net JA[7] loc = "V9";
+#net JA[8] loc = "T9";
+#net JA[9] loc = "V4";
+#net JA[10] loc = "T4";
+
+net gclk loc = "L15";
+#net SDATA_IN loc = "T18";
+net SDATA_OUT loc = "N16";
+net SYNC loc = "U17";
+net RESET loc = "T17";
+#net SYS_RESET loc = "T15";
+net BIT_CLK loc = "L13";
+
+#net B_CLK PERIOD = 81380 ps;
+//net SQ_WAVE PERIOD = 833 us;
